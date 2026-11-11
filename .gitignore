@@ -1,0 +1,17 @@
+# project environment
+.venv/
+
+# data: keep the folder, ignore what's inside
+data/*
+!data/.gitkeep
+
+# Anaconda leftovers
+anaconda_projects/
+
+# Python and Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
+
+# secrets
+.env
+kaggle.json
